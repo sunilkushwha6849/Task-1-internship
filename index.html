@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1 - Basic Web Development</title>
+
+    <!-- CSS Styling -->
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f6f9;
+        }
+
+        header {
+            background-color: #0a8f8f;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            background: white;
+            width: 90%;
+            max-width: 700px;
+            margin: 30px auto;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #b5b5b5;
+        }
+
+        img {
+            width: 100%;
+            max-width: 350px;
+            display: block;
+            margin-top: 15px;
+            border-radius: 8px;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            background-color: #0a8f8f;
+            padding: 10px 18px;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 12px 20px;
+            background-color: #ff7a00;
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Basics of Web Development – Task 1</h1>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h2>Welcome to My Webpage</h2>
+
+        <p>
+            This is a simple webpage created for the ApexPlanet Internship Task 1.  
+            It includes basic HTML elements, CSS styling, and a JavaScript alert button.
+        </p>
+
+        <!-- Image -->
+        <img src="https://via.placeholder.com/350" alt="Sample Image">
+
+        <!-- Link -->
+        <a href="https://www.apexplanet.in" target="_blank">Visit ApexPlanet</a>
+
+        <!-- JavaScript Button -->
+        <button onclick="showAlert()">Click Me</button>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        function showAlert() {
+            alert("Hello! Task 1 JavaScript Alert Triggered Successfully.");
+        }
+    </script>
+
+</body>
+</html>
